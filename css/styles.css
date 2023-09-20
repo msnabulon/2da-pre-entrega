@@ -1,0 +1,657 @@
+/*Reset CSS y header bootstrap*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente Local */
+@font-face {
+  font-family: "Fuente Descargada Architects Daughter";
+  src: url("./recursos/typo/ArchitectsDaughter-Regular.ttf");
+}
+
+body {
+  background-color: #928B86;
+  font-family: "Fuente Descargada Architects Daughter";
+}
+
+/* Configuracion Logo */
+body header nav div a img {
+  width: 180px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+/* Configuracion del Header */
+.turquesa {
+  color: #92E1ED;
+}
+
+header .colorNavbar {
+  background-color: #928B86;
+}
+
+header .colorNavbar .nav-item .nav-link:hover {
+  color: #92E1ED;
+}
+
+header .colorNavbar .navbar-nav .nav-item {
+  display: inline-block;
+  margin: 0 15px;
+  font-family: "Fuente Descargada Architects Daughter";
+  font-size: larger;
+}
+
+header .colorNavbar .navbar-nav .nav-link {
+  color: #F4C196;
+}
+
+header .btn-outline-success {
+  background-color: #F4C196;
+  color: #928B86;
+  font-family: "Fuente Descargada Architects Daughter";
+  font-size: medium;
+  border-color: #F4C196;
+}
+
+header .btn-outline-success:hover {
+  background-color: #92E1ED;
+  color: #928B86;
+  border-color: #92E1ED;
+}
+
+header .me-2 {
+  background-color: #F4C196;
+  border-color: #F4C196;
+}
+
+header .me-2:focus {
+  background-color: #92E1ED;
+  border-color: #92E1ED;
+}
+
+
+/*fin de header*/
+
+/*Configuracion del main*/
+main .line {
+  display: inline-block;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #F4C196;
+  text-align: center;
+}
+
+main .barra {
+  /* text-align: center; */
+  padding: 20px;
+}
+
+main .line:hover {
+  background-color: #92E1ED;
+  border-radius: 20px;
+}
+
+main .nosotros {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Fuente Descargada Architects Daughter";
+  color: #928B86;
+  font-size: 46px;
+}
+
+main .imagenCarousel {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+main .mision {
+  text-align: justify;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #F4C196;
+  font-size: 25px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .vision {
+  text-align: justify;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #F4C196;
+  font-size: 25px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .valores {
+  text-align: center;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #F4C196;
+  font-size: 25px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .serviciosEmpresas {
+  text-align: justify;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #F4C196;
+  font-size: 25px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .serviciosCursos {
+  text-align: justify;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #F4C196;
+  font-size: 25px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main #mision {
+  text-align: center;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #92E1ED;
+  font-weight: bold;
+}
+
+main #vision {
+  text-align: center;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #92E1ED;
+  font-weight: bold;
+}
+
+main #valores {
+  text-align: center;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #92E1ED;
+  font-weight: bold;
+}
+
+main .imagenes img {
+  max-width: 100%;
+  height: auto;
+  border-top: 10px;
+  border-radius: 10px;
+}
+
+main .servicios__empresas {
+  text-align: center;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color: #92E1ED;
+  font-size: 35px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .servicios__textoEmpresas {
+  text-align: justify;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color:  #F4C196;
+  font-size: 20px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .servicios__btnEmpresas {
+  background-color: #F4C196;
+  color: #928B86;
+  font-family: "Fuente Descargada Architects Daughter";
+  font-size: large;
+  border-color: #F4C196;
+}
+
+main .servicios__btnEmpresas:hover {
+  background-color: #92E1ED;
+  color: #928B86;
+  border-color: #92E1ED;
+  font-weight: bold;
+  font-style: italic;
+}
+
+main .wapp {
+  text-decoration: none;
+  /* text-align: center;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color:  #928B86;
+  font-size: 20px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .wapp:hover {
+  text-decoration: none;
+  /* text-align: center;
+  /* font-family: "Fuente Descargada Architects Daughter"; */
+  color:  #928B86;
+  font-size: 20px;
+  /* margin: 20px;
+    padding: 10px; */
+}
+
+main .btn-outline-secondary {
+  background-color: #F4C196;
+  color: #928B86;
+  font-family: "Fuente Descargada Architects Daughter";
+  font-size: large;
+  border-color: #F4C196;
+}
+
+main .btn-outline-secondary:hover {
+  background-color: #92E1ED;
+  color: #928B86;
+  border-color: #92E1ED;
+}
+
+
+/*Configuracion del footer y Bootstrap*/
+.footerGeneral {
+  background-color: #F4C196;
+}
+
+.footerGeneral .descripcionFooter {
+  text-align: justify;
+}
+
+.footerGeneral .iconosRedes a {
+  text-decoration: none;
+  border: none;
+}
+
+.footerGeneral .linkWeb {
+  text-decoration: none;
+  color: #928B86;
+  font-weight: bold;
+
+}
+
+.footerGeneral .tituloFooter {
+  font-size: 20px;
+  font-style: italic;
+  color: #928B86;
+  font-weight: bolder;
+}
+
+.p-4 {
+  font-size: small;
+  color: #928B86;
+  background-color: #F4C196;
+  /* text-align: start !important; */
+}
+
+.mt-3 {
+  text-align: center;
+}
+
+.mt-5 {
+  color: #928B86;
+}
+.border-bottom {
+  /* border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important; */
+  border-bottom-color: #928B86 !important;
+}
+
+.d-flex {
+  align-items: center;
+}
+
+  /*fin de footer*/
+
+.formContacto {
+    display: grid;
+    width: 100%;
+    background: url(../imagenes/descripcion-de-puestos.jpg);
+    text-align: center;
+    font-style: italic;
+    color: #928B86;
+    border-bottom: 30px;
+}
+
+.formConsultas {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 20px auto;
+    margin-bottom: 5px;
+    color: #928B86;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.campos {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #F4C196;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 2px 5px;
+    opacity: 20px;
+    color: #928B86;
+    cursor: pointer;
+    background-color: #F4C196;
+  }
+
+.campos:focus {
+   background-color: #92E1ED;
+    /* border: 2px solid #92E1ED; */
+  }
+
+.btnFormulario {
+    background-color: #928B86;
+    color: #F4C196;
+    /* border: none; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #F4C196;
+    cursor: pointer;
+    box-shadow: 5px 2px 5px;
+    opacity: 20px;
+  }
+
+.btnFormularioUno {
+    background-color: #92E1ED;
+    color: #928B86;
+    /* border: none; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    /* border: 2px solid #F4C196; */
+    cursor: pointer;
+    box-shadow: 5px 2px 5px;
+    opacity: 20px;
+  }
+
+.btnFormulario:hover {
+    background-color: #F4C196;
+    color: #928B86;
+    font-weight: bold;
+    font-style: italic;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #F4C196;
+    cursor: pointer;
+    box-shadow: 5px 2px 5px;
+    opacity: 20px;
+  }
+
+.btnFormularioUno {
+    background-color: #92E1ED;
+    color: #928B86;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #F4C196;
+    cursor: pointer;
+    box-shadow: 5px 2px 5px;
+    opacity: 20px;
+  }
+
+.btnFormularioUno:hover {
+    background-color: #F4C196;
+    color: #928B86;
+    font-weight: bold;
+    font-style: italic;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #F4C196;
+    cursor: pointer;
+    box-shadow: 5px 2px 5px;
+    opacity: 20px;
+  }
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    cursor: pointer;
+    /* border-radius: 25px; */
+  }
+
+.containerTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+.tarjetaPersonalizada {
+    flex: 1 0 calc(50% - 15px);
+    max-width: 18rem;
+    background-color: #F4C196;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+.tarjetaPersonalizada .cardImgTop {
+    width: 100%;
+    height: auto;
+  }
+
+.tarjetaPersonalizada .cardBody {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+.tarjetaPersonalizada .cardBody .tituloTarjetas {
+    font-size: 2rem;
+    color: #928B86;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "Fuente Descargada Architects Daughter";
+    font-weight: bold;
+  }
+
+.tarjetaPersonalizada .cardBody .textoCursos {
+    font-size: 1rem;
+    color: #928686;
+    margin-bottom: 15px;
+    text-align:justify;
+    /* font-size: 20px; */
+  }
+
+.tarjetaPersonalizada .cardBody .btnCursos {
+    background-color: #928686;
+    color: #F4C196;
+    border: none;
+    padding: 8px 20px;
+    font-size: 1rem;
+  }
+
+.tarjetaPersonalizada .cardBody .btnCursos:hover {
+    background-color: #92E1ED;
+    color: #928686;
+    border: none;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 20px;
+    margin-bottom: 5px;
+    color: #F4C196;
+    font-size: 35px;
+  }
+
+.mainIngresoSitio .container {
+    margin-bottom: 20px;
+    margin-bottom: 5px;
+  }
+
+.mainIngresoSitio .col-lg-6 {
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+.mainIngresoSitio .btnIngresoSitio {
+    background-color: #F4C196;
+    color: #928686;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    align-content: center;
+  }
+
+.mainIngresoSitio .btnIngresoSitio:hover {
+    background-color: #92E1ED;
+    color: #928686;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+.mainIngresoSitio .tituloIngresoSitio {
+    color: #92E1ED;
+    text-align: center;
+  }
+
+.mainIngresoSitio .textoIngresoSitio {
+    text-align: justify;
+    color: #F4C196;
+  }
+
+.mainIngresoSitio .imgIngresoSitio {
+    border-radius: 20px;
+  }
+
+
+
+
+
+
+
+
+/*inicio de MQ en general*/
+@media (max-width: 767.98px) {
+
+.btnFormulario,
+.btnFormularioUno {
+      width: 100%;
+    }
+  }
+
+@media (max-width: 767.98px) {
+.mainIngresoSitio .row {
+      justify-content: center;
+    }
+  }
+
+@media (max-width: 767.98px) {
+.tarjetaPersonalizada {
+      flex: 1 0 100%;
+      max-width: 100%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1080px) {
+.tarjetaPersonalizada {
+      flex: 1 0 calc(100% - 20px);
+    }
+  }
+
+@media (min-width: 320px) and (min-height: 1000px) {
+.containerTarjetas {
+      margin: 20px;
+    }
+  }
+
+.formContacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    color: red;
+  }
+
+.formConsultas {
+    margin-top: 20px;
+    margin-right: 10px;
+    color: red;
+  }
+
+@media (max-width: 768px) {
+.formContacto {
+      padding: 10px;
+    }
+
+.formConsultas {
+      max-width: 100%;
+      margin-right: 0;
+    }
+
+.campos,
+#email,
+.mensaje {
+      width: 90%;
+      margin: 5pz;
+    }
+
+.iframe {
+      width: 100%;
+      text-align: center;
+    }
+
+.iframe {
+      height: 300px;
+    }
+  }
